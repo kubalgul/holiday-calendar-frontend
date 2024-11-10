@@ -6,8 +6,7 @@
     <b>Frontend :</b> Kullanıcıların tatilleri ülke ve bölge bazında görüntüleyebileceği bir arayüz sunar.  <br />
     Seçili ülke, eyalet ve tatil türüne göre tatilleri filtreler ve takvim üzerinde gösterir.<br />
 
-    <b>Backend :</b> o	Tatil verilerini sunmak için bir API sağlar. Kullanıcıların ülke, bölge ve tatil türüne göre filtreleme yapmasına izin verir. <br />
-    <br />
+     <b>Backend :</b>Tatil verilerini sunmak için bir API sağlar. Kullanıcıların ülke, bölge ve tatil türüne göre filtreleme yapmasına izin verir <br />
   </p>
 </div>
 
