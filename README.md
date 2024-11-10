@@ -5,8 +5,9 @@
   <p align="center">
     <b>Frontend :</b> Kullanıcıların tatilleri ülke ve bölge bazında görüntüleyebileceği bir arayüz sunar.  <br />
     Seçili ülke, eyalet ve tatil türüne göre tatilleri filtreler ve takvim üzerinde gösterir.<br />
-
-     <b>Backend :</b>Tatil verilerini sunmak için bir API sağlar. Kullanıcıların ülke, bölge ve tatil türüne göre filtreleme yapmasına izin verir <br />
+  </p>
+   <p align="center">
+     <b>Backend :</b>Tatil verilerini sunmak için bir API sağlar.  <br /> Kullanıcıların ülke, bölge ve tatil türüne göre filtreleme yapmasına izin verir <br />
   </p>
 </div>
 
@@ -40,14 +41,22 @@ Proje dosyalarını bilgisayarınıza kopyaladıktan sonra aşağıdaki adımlar
    ```bash
    git clone https://github.com/kubalgul/holiday-calendar-frontend.git
    cd holiday-calendar-frontend
+
+   
 2. Bağımlılıkları Yükleyin:
-  ```bash
+   ```bash
    npm install
+
 3. Uygulamaya yerel sunucunuz üzerinden erişebilirsiniz:
-  ```arduino
+   ```bash
    http://localhost:3000
+
 
 ### Kullanım
 
 Uygulama açıldığında, Almanya ve eyaletlerindeki tatilleri görüntüleyebilirsiniz.
 Menüdeki filtreleri kullanarak tatilleri türlerine göre filtreleyebilirsiniz.
+
+
+
+   
