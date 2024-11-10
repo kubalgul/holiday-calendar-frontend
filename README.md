@@ -1,75 +1,54 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Almanya Tatil Takvimi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3 align="center">Almanya Tatil Takvimi</h3>
+  <p align="center">
+    <b>Frontend :</b> Kullanıcıların tatilleri ülke ve bölge bazında görüntüleyebileceği bir arayüz sunar.  <br />
+    Seçili ülke, eyalet ve tatil türüne göre tatilleri filtreler ve takvim üzerinde gösterir.<br />
 
-## Available Scripts
+    <b>Backend :</b> o	Tatil verilerini sunmak için bir API sağlar. Kullanıcıların ülke, bölge ve tatil türüne göre filtreleme yapmasına izin verir. <br />
+    <br />
+  </p>
+</div>
 
-In the project directory, you can run:
+## Kullanılan Teknolojiler
 
-### `npm start`
+-	React.js: Kullanıcı arayüzünü oluşturmak için.
+-	React Calendar: Takvim bileşenini göstermek için.
+-	CSS: Arayüz tasarımı ve stillendirme için
+-	Node.js: Sunucu tarafında çalışır.
+- Express.js: API oluşturmak için.
+- CORS: Frontend ve backend arasında veri aktarımı için.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Proje Ekran Görüntüleri
+![ssss](images/AlmanyaTatilTakvimiList.jpg)
+![ssss](images/AlmanyaTatilTakvimi.jpg)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Kurulum Talimatı
 
-### `npm run build`
+Proje dosyalarını bilgisayarınıza kopyaladıktan sonra aşağıdaki adımları izleyin:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Gereksinimler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 veya üstü)
+- npm veya yarn paket yöneticisi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Adımlar
 
-### `npm run eject`
+1. Proje dosyalarını indirin veya klonlayın:
+   ```bash
+   git clone https://github.com/kubalgul/holiday-calendar-frontend.git
+   cd holiday-calendar-frontend
+2. Bağımlılıkları Yükleyin:
+  ```bash
+   npm install
+3. Uygulamaya yerel sunucunuz üzerinden erişebilirsiniz:
+  ```arduino
+   http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Kullanım
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# holiday-calendar-frontend
-Almanya tatil takvimi UI kısmıdır
->>>>>>> c6fd132a81d3d753f0b2b2e32555fb2186a7b5eb
+Uygulama açıldığında, Almanya ve eyaletlerindeki tatilleri görüntüleyebilirsiniz.
+Menüdeki filtreleri kullanarak tatilleri türlerine göre filtreleyebilirsiniz.
