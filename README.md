@@ -46,8 +46,12 @@ Proje dosyalarını bilgisayarınıza kopyaladıktan sonra aşağıdaki adımlar
 2. Bağımlılıkları Yükleyin:
    ```bash
    npm install
+   
+3. Çalıştırın:
+   ```bash
+   npm start
 
-3. Uygulamaya yerel sunucunuz üzerinden erişebilirsiniz:
+4. Uygulamaya yerel sunucunuz üzerinden erişebilirsiniz:
    ```bash
    http://localhost:3000
 
